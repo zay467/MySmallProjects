@@ -1,0 +1,36 @@
+﻿<Page x:Class="Calculator.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Calculator"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="500"
+      Title="Calculator">
+
+    <Grid Background="Black">
+        <TextBox HorizontalAlignment="Left" Height="124" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Margin="32,19,0,0" FontSize="24" TextAlignment="Right" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" IsReadOnlyCaretVisible="True" Name="tb"/>
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="137,162,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="eight"/>
+        <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="242,162,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="nine"/>
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="32,217,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="four"/>
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="32,162,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="seven"/>
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="137,217,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="five"/>
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="242,217,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="six"/>
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="32,272,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="one"/>
+        <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="137,272,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="two"/>
+        <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="242,272,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="three"/>
+        <Button Content="C" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="32,327,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="clear"/>
+        <Button Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="137,327,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="zero"/>
+        <Button Content="." HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="242,327,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="dot"/>
+        <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="368,162,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="plus"/>
+        <Button Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="368,217,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="minus"/>
+        <Button Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="368,272,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="multiply"/>
+        <Button Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="368,327,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="divide"/>
+        <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="368,405,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="equal"/>
+        <Button Content="%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="242,405,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="modulus"/>
+        <Button Content="Sqrt" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="137,405,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="sqrt"/>
+        <Button Content="History" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="32,405,0,0" Height="50" FontSize="20" BorderBrush="Orange" BorderThickness="5,5,5,5" Background="Black" Foreground="White" Click="history" />
+        <Label Name="lb" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,108,0,0" Foreground="White" />
+
+    </Grid>
+</Page>
