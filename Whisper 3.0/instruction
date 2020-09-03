@@ -1,0 +1,24 @@
+Localhost Live chat app
+
+Please Run server.py ,first. 
+    Enter your mysql root account username and password.
+    Then enter openweather appid (optional)
+    Your host laptop ip will appear.
+
+Then run main.py. 
+    There will be a blank screen until you enter the host ip.
+    Enter host laptop ip.
+
+*REQUIREMENT* 
+-MySQL 
+
+Modules name 
+
+Cryptodome - "pip install pycryptodomex"
+PIL - "pip instal pillow"
+
+* Note 
+
+I am a beginner in python and there many be some mistake. 
+You can contact me if you run into any error.
+Email - zayminmaw77@gmail.com
